@@ -1,0 +1,257 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Bảo vệ dòng điện cực đại</title>
+  <metadata>
+  <md:content-id>m29104</md:content-id><md:title>Bảo vệ dòng điện cực đại</md:title>
+  <md:abstract>Bảo vệ dòng điện cực đại</md:abstract>
+  <md:uuid>f9b17f8d-1801-406f-897c-d224654b0bfc</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-289854940764">
+      <title>Nguyên tắc tác động:</title>
+      <para id="id15407818">Bảo vệ dòng điện cực đại là loại bảo vệ phản ứng với dòng trong phần tử được bảo vệ. Bảo vệ sẽ tác động khi dòng điện qua chỗ đặt thiết bị bảo vệ tăng quá một giá trị định trước nào đó. </para>
+      <para id="id15407822">Ví dụ khảo sát tác động của các bảo vệ dòng điện cực đại đặt trong mạng hình tia có 1 nguồn cung cấp (hình 2.1), các thiết bị bảo vệ được bố trí về phía nguồn cung cấp của tất cả các đường dây. Mỗi đường dây có 1 bảo vệ riêng để cắt hư hỏng trên chính nó và trên thanh góp của trạm ở cuối đường dây.</para>
+      <figure id="id11582408">
+        <media id="id1166515076325" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media>
+      </figure>
+      <para id="id10487325">Hình 2.1: Bố trí các bảo vệ dòng cực đại trong mạng hình tia</para>
+      <para id="id16183213">có 1 nguồn cung cấp</para>
+      <para id="id14953990">Dòng khởi động của bảo vệ IKĐ, tức là dòng nhỏ nhất đi qua phần tử được bảo vệ mà có thể làm cho bảo vệ khởi động, cần phải lớn hơn dòng phụ tải cực đại của phần tử được bảo vệ để ngăn ngừa việc cắt phần tử khi không có hư hỏng.</para>
+      <para id="id12725106">Có thể đảm bảo khả năng tác động chọn lọc của các bảo vệ bằng 2 phương pháp khác nhau về nguyên tắc:</para>
+      <list id="id16188680" list-type="bulleted">
+        <item>Phương pháp thứ nhất - bảo vệ được thực hiện có thời gian làm việc càng lớn khi bảo vệ càng đặt gần về phía nguồn cung cấp. Bảo vệ được thực hiện như vậy được gọi là BV dòng điện cực đại làm việc có thời gian.</item>
+        <item>Phương pháp thứ hai - dựa vào tính chất: dòng ngắn mạch đi qua chỗ nối bảo vệ sẽ giảm xuống khi hư hỏng càng cách xa nguồn cung cấp. Dòng khởi động của bảo vệ IKĐ được chọn lớn hơn trị số lớn nhất của dòng trên đoạn được bảo vệ khi xảy ra ngắn mạch ở đoạn kề (cách xa nguồn hơn). Nhờ vậy bảo vệ có thể tác động chọn lọc không thời gian. Chúng được gọi là bảo vệ dòng điện cắt nhanh.</item>
+      </list>
+      <para id="id8751557">Các bảo vệ dòng điện cực đại làm việc có thời gian chia làm hai loại tương ứng với đặc tính thời gian độc lập và đặc tính thời gian phụ thuộc có giới hạn. Bảo vệ có đặc tính thời gian độc lập là loại bảo vệ có thời gian tác động không đổi, không phụ thuộc vào trị số của dòng điện qua bảo vệ. Thời gian tác động của bảo vệ có đặc tính thời gian phụ thuộc giới hạn, phụ thuộc vào dòng điện qua bảo vệ khi bội số của dòng đó so với dòng IKĐ tương đối nhỏ và ít phụ thuộc hoặc không phụ thuộc khi bội số này lớn. </para>
+      <para id="id10853857">** Các bộ phận chính của BV dòng cực đại:</para>
+      <para id="id17802074">Bảo vệ dòng cực đại có hai bộ phận chính : Bộ phận khởi động (ví dụ, sơ đồ bảo vệ như hình 2.2, bộ phận khởi động là các rơle dòng 3RI và 4RI) và bộ phận tạo thời gian làm việc (rơle thời gian 5RT). Bộ phận khởi động phản ứng với các hư hỏng và tác động đến bộ phận tạo thời gian. Bộ phận tạo thời gian làm nhiệm vụ tạo thời gian làm việc đảm bảo cho bảo vệ tác động một cách có chọn lọc. Các rơle dòng điện được nối vào phía thứ cấp của BI theo sơ đồ thích hợp (xem mục II - chương 1).</para>
+      <figure id="id13769108">
+        <media id="id1166514289861" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media>
+      </figure>
+      <para id="id13062775">Hinh 2.2 : Sơ đồ nguyên lí của bảo vệ dòng cực đại </para>
+    </section>
+    <section id="id-496244356037">
+      <title>Bảo vệ dòng cực đại làm việc có thời gian:</title>
+      <section id="id-659316473312">
+        <title>Dòng khởi động của BV:</title>
+        <para id="id13579245">Theo nguyên tắc tác động, dòng khởi động IKĐ của bảo vệ phải lớn hơn dòng điện phụ tải cực đại qua chổ đặt bảo vệ, tuy nhiên trong thực tế việc chọn IKĐ còn phụ thuộc vào nhiều điều kiện khác.</para>
+        <para id="id8780037">Để xác định dòng khởi động ta xét sơ đồ mạng điện trên hình 2.1, giả sử chọn IKĐ cho bảo vệ 3’ đặt ở đầu đoạn đường dây AB, trước hết ta khảo sát trạng thái của nó khi hư hỏng ở điểm N trên đoạn BC kề phía sau nó (tính từ nguồn cung cấp).</para>
+        <para id="id15559655">Khi các bảo vệ làm việc đúng thì trong trường hợp này máy cắt của đoạn hư hỏng BC sẽ bị cắt ra. Bảo vệ 3’ của đoạn không hư hỏng AB có thời gian lớn hơn sẽ không kịp tác động và cần phải trở về vị trí ban đầu của mình. Nhưng điều này sẽ xảy ra nếu dòng trở về của bảo vệ Itv lớn hơn trị số tính toán của dòng mở máy Imm (hình 2.3) đi qua đoạn AB đến các hộ tiêu thụ của trạm B. Dòng Itv là dòng sơ cấp lớn nhất mà ở đó bảo vệ trở về vị trí ban đầu. Để an toàn, lấy trị số tính toán của dòng mở máy Immtt = Immmax , như vậy điều kiện để đảm bảo chọn lọc là : Itv &gt; Immmax.</para>
+        <para id="id12434113">Khi xác định dòng Immmax cần phải chú ý là đường dây BC đã bị cắt ra, còn các động cơ nối ở trạm B đã bị hãm lại do điện áp giảm thấp khi ngắn mạch và khi điện áp được khôi phục dòng mở máy của chúng tăng lên rất cao. Vì vậy dòng Immmax thường lớn hơn nhiều so với dòng phụ tải cực đại Ilvmax. Đưa vào hệ số mở máy kmm để tính đến dòng mở máy của các động cơ ở trạm B và việc cắt phụ tải của trạm C. Ta có Immmax = kmm.Ilvmax. </para>
+        <para id="id5057465">
+          <figure id="id11822302">
+            <media id="id1166514297872" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media>
+          </figure>
+        </para>
+        <para id="id17422826">Hinh 2.3 : Đồ thị đặc trưng trạng thái của bảo vệ </para>
+        <para id="id15057172">khi ngắn mạch ngoài</para>
+        <para id="id17714372">Sai số của dòng trở về của bảo vệ và các tính toán không chính xác... được kể đến bởi hệ số an toàn kat &gt; 1 (vào khoảng 1,1 1,2). Từ điều kiện đảm bảo sự trở về của bảo vệ đoạn AB, có thể viết : </para>
+        <para id="id13819249">Itv = kat.kmm.Ilvmax   (2.1)</para>
+        <para id="id7899897">Tỉ số giữa dòng trở về của rơle (hoặc của bảo vệ) đối với dòng khởi động của rơle (hoặc của bảo vệ) gọi là hệ số trở về ktv.</para>
+        <para id="id13859160"><figure id="id13678802"><media id="id1166514280917" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media></figure>  (2.2)</para>
+        <para id="id9541900">Như vậy: <figure id="id16240297"><media id="id1166514280948" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media></figure>  (2.3)</para>
+        <para id="id16085192">Các rơle lí tưởng có hệ số trở về ktv = 1; thực tế luôn luôn có ktv &lt; 1.</para>
+        <para id="id16678767">Dòng khởi động IKĐR của rơle khác với dòng khởi động IKĐ của bảo vệ do hệ số biến đổi nI của BI và sơ đồ nối dây giữa các rơle dòng và BI.</para>
+        <para id="id17709122">Trong một số sơ đồ nối rơle, dòng đi vào rơle không bằng dòng thứ cấp của các BI. Ví dụ như khi nối rơle vào hiệu dòng 2 pha, dòng vào rơle IR(3) trong tình trạng đối xứng bằng <media id="id1166514280997" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media> lần dòng thứ cấp IT(3) của BI. Sự khác biệt của dòng trong rơle trong tình trạng đối xứng và dòng thứ cấp BI được đặc trưng bằng hệ số sơ đồ:</para>
+        <para id="id10464278"><figure id="id8939518"><media id="id1166514281029" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media></figure>   (2.4)</para>
+        <para id="id17325899">Kể đến hệ sơ đồ, có thể viết : <figure id="id13367082"><media id="id1166514281061" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media></figure>  (2.5)</para>
+        <para id="id14150702">Do vậy :  <figure id="id8709137"><media id="id1166514281094" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media></figure>  (2.6)</para>
+      </section>
+      <section id="id-872792269288">
+        <title>Thời gian làm việc:</title>
+        <section id="id-258595641332">
+          <title>Bảo vệ có đặc tính thời gian độc lập:</title>
+          <table id="id4062558" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry>Thời gian làm việc của bảo vệ có đặc tính thời gian độc lập (hình 2.4) được chọn theo nguyên tắc bậc thang (từng cấp) , làm thế nào để cho bảo vệ đoạn sau gần nguồn hơn có thời gian làm việc lớn hơn thời gian làm việc lớn nhất của các bảo vệ đoạn trước một bậc chọn lọc về thời gian t.Xét sơ đồ mạng như hình 2.5, việc chọn thời gian làm việc của các bảo vệ được bắt đầu từ bảo vệ của đoạn đường dây xa nguồn cung cấp nhất, tức là từ các bảo vệ 1’ và 1” ở trạm C. Giả thiết thời gian làm việc của các bảo vệ này đã biết, tương ứng là t1’ và t1”.</entry>
+                  <entry><media id="id1166514254775" alt=""><image src="Convert." mime-type="image/"/></media>Hinh 2.4 : Các dạng đặc tính thời gian của bảo vệ dòng cực đại1- độc lập; 2- phụ thuộc</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <figure id="id8811134">
+            <media id="id1166514254801" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media>
+          </figure>
+          <para id="id17169041">Hinh 2.5 : Phối hợp đặc tính thời gian độc lập của các bảo vệ dòng cực đại</para>
+          <para id="id14953788">Thời gian làm việc t2’ của bảo vệ 2’ tại trạm B được chọn lớn hơn thời gian làm việc lớn nhất của các bảo vệ tại trạm C một bậc t. Nếu t1’ &gt; t1” thì t2’ = t­1’+ t.</para>
+          <para id="id15264533">Thời gian làm việc t3 của bảo vệ 3 ở trạm A cũng tính toán tương tự, ví dụ nếu có t2” &gt; t2’ thì t3 = t2” + t.</para>
+          <para id="id12000585">Trường hợp tổng quát, đối với bảo vệ của đoạn thứ n thì: </para>
+          <para id="id6137680">tn = t(n-1)max + t (2.7)</para>
+          <para id="id13600823">trong đó: t(n-1)max - thời gian làm việc lớn nhất của các bảo vệ ở đoạn thứ n-1 (xa nguồn hơn đoạn thứ n).</para>
+        </section>
+        <section id="id-0919315868903">
+          <title>Bảo vệ có đặc tính thời gian phụ thuộc có giới hạn:</title>
+          <para id="id19062645">Khi chọn thời gian làm việc của các bảo vệ có đặc tính thời gian phụ thuộc có giới hạn (hình 2.4) có thể có 2 yêu cầu khác nhau do giá trị của bội số dòng ngắn mạch ở cuối đoạn được bảo vệ so với dòng khởi động :</para>
+          <para id="id19062648">1. Khi bội số dòng lớn, bảo vệ làm việc ở phần độc lập của đặc tính thời gian: lúc ấy thời gian làm việc của các bảo vệ được chọn giống như đối với bảo vệ có đặc tính thời gian độc lập.</para>
+          <para id="id13212180">2. Khi bội số dòng nhỏ, bảo vệ làm việc ở phần phụ thuộc của đặc tính thời gian: trong trường hợp này, sau khi phối hợp thời gian làm việc của các bảo vệ kề nhau có thể giảm được thời gian cắt ngắn mạch.</para>
+          <figure id="id16230502">
+            <media id="id1166514254960" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media>
+          </figure>
+          <para id="id7472039">Hình 2.6 : Phối hợp các đặc tính của bảo vệ dòng cực đại</para>
+          <para id="id7357827">có đặc tính thời gian phụ thuộc giới hạn.</para>
+          <para id="id18620509">N : Điểm ngắn mạch tính toán </para>
+          <para id="id6314346">Xét sơ đồ mạng hình 2.6, đặc tính thời gian của bảo vệ thứ n trên đoạn AB được lựa chọn thế nào để nó có thời gian làm việc là tn lớn hơn thời gian t(n-1)max của bảo vệ thứ (n-1) trên đoạn BC một bậc t khi ngắn mạch ở điểm tính toán - đầu đoạn kề BC - gây nên dòng ngắn mạch ngoài lớn nhất có thể có I’N max. Từ thời gian làm việc tìm được khi ngắn mạch ở điểm tính toán có thể tiến hành chỉnh định bảo vệ và tính được thời gian làm việc đối với những vị trí và dòng ngắn mạch khác.</para>
+          <para id="id5468866">Ngắn mạch càng gần nguồn dòng ngắn mạch càng tăng, vì vậy khi ngắn mạch gần thanh góp trạm A thời gian làm việc của bảo vệ đường dây AB giảm xuống và trong một số trường hợp có thể nhỏ hơn so với thời gian làm việc của bảo vệ đường dây BC.</para>
+          <para id="id5468870">Khi lựa chọn các đặc tính thời gian phụ thuộc thường người ta tiến hành vẽ chúng trong hệ tọa độ vuông góc (hình 2.7), trục hoành biểu diễn dòng trên đường dây tính đổi về cùng một cấp điện áp của hệ thống được bảo vệ, còn trục tung là thời gian.</para>
+          <table id="id12568752" summary="">
+            <tgroup cols="2">
+              <colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <tbody>
+                <row>
+                  <entry><media id="id1166514300227" alt=""><image src="Convert." mime-type="image/"/></media>Hình 2.7 : Phối hợp đặc tính thời gian làm việc phụ thuộc có giới hạn của các bảo vệ dòng cực đại trong hệ tọa độ dòng - thời gian.</entry>
+                  <entry>Dùng bảo vệ có đặc tính thời gian phụ thuộc có thể giảm thấp dòng khởi động so với bảo vệ có đặc tính thời gian độc lập vi hệ số mở máy kmm có thể giảm nhỏ hơn. Điều này giải thích như sau: sau khi cắt ngắn mạch, dòng Imm đi qua các đường dây không hư hỏng sẽ giảm xuống rất nhanh và bảo vệ sẽ không kịp tác động vì thời gian làm việc tương ứng với trị số của dòng Imm (thường gần bằng IKĐ của bảo vệ) là tương đối lớn.</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <para id="id11794447">Nhược điểm của bảo vệ có đặc tính thời gian phụ thuộc là :</para>
+          <list id="id7226746" list-type="bulleted">
+            <item>Thời gian cắt ngắn mạch tăng lên khi dòng ngắn mạch gần bằng dòng khởi động (ví dụ, khi ngắn mạch qua điện trở quá độ lớn hoặc ngắn mạch trong tình trạng làm việc cực tiểu hệ thống).</item>
+            <item>Đôi khi sự phôi hợp các đặc tính thời gian tương đối phức tạp.</item>
+          </list>
+        </section>
+        <section id="id-308262763081">
+          <title>Bậc chọn lọc về thời gian:</title>
+          <para id="id12062317">Bậc chọn lọc về thời gian t trong biểu thức (2.7) xác định hiệu thời gian làm việc của các bảo vệ ở 2 đoạn kề nhau t = tn - t(n-1)max. Khi chọn t cần xét đến những yêu cầu sau :</para>
+          <list id="id13052963" list-type="bulleted">
+            <item>t cần phải bé nhất để giảm thời gian làm việc của các bảo vệ gần nguồn.</item>
+            <item>t cần phải thế nào để hư hỏng ở đoạn thứ (n-1) được cắt ra trước khi bảo vệ của đoạn thứ n (gần nguồn hơn) tác động.</item>
+          </list>
+          <para id="id13731484">t của bảo vệ đoạn thứ n cần phải bao gồm những thành phần sau :</para>
+          <para id="id12002909">* Thời gian cắt tMC(n - 1) của máy cắt đoạn thứ (n-1).</para>
+          <para id="id5541118">* Tổng giá trị tuyệt đối của sai số dương max tss(n-1) của bảo vệ đoạn thứ n và của sai số âm max tssn của bảo vệ đọan thứ n (có thể bảo vệ thứ n tác động sớm)</para>
+          <para id="id7879312">* Thời gian sai số do quán tính tqtn của bảo vệ đoạn thứ n.</para>
+          <para id="id13720965">* Thời gian dự trữ tdt.</para>
+          <para id="id13613244">Tóm lại: t = tMC(n - 1) + tss(n - 1) + tssn + tqtn + tdt (2.8)</para>
+          <para id="id8299680">Thường t vào khoảng 0,25 - 0,6sec.</para>
+        </section>
+      </section>
+      <section id="id-680532891187">
+        <title>Độ nhạy của bảo vệ:</title>
+        <para id="id15524408">Độ nhạy của bảo vệ dòng max đặc trưng bằng hệ số độ nhạy Kn. Trị số của nó được xác định bằng tỉ số giữa dòng qua rơle IR khi ngắn mạch trực tiếp ở cuối vùng bảo vệ và dòng khởi động rơle IKĐR.</para>
+        <para id="id11937022"><figure id="id11937025"><media id="id1166514300488" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media></figure> (2.9)</para>
+        <para id="id3867382">Dạng ngắn mạch tính toán là dạng ngắn mạch gây nên trị số Kn nhỏ nhất.</para>
+        <para id="id16678574">Để đảm bảo cho bảo vệ tác động khi ngắn mạch qua điện trở quá độ, dựa vào kinh nghiệm vận hành người ta coi rằng trị số nhỏ nhất cho phép là Knmin1,5. Khi Kn nhỏ hơn trị số nêu trên thì nên tìm cách dùng một sơ đồ nối rơle khác đảm bảo độ nhạy của bảo vệ lớn hơn. Nếu biện pháp này không đem lại kết quả khả quan hơn thì cần phải áp dụng các bảo vệ khác nhạy hơn.</para>
+        <para id="id16267184">Trường hợp tổng quát, yêu cầu đối với bảo vệ đặt trong mạng là phải tác động không những khi hư hỏng trên chính đoạn được nó bảo vệ, mà còn phải tác động cả khi hư hỏng ở đoạn kề nếu bảo vệ hoặc máy cắt của đoạn kề bị hỏng hóc (yêu cầu dự trữ cho bảo vệ của đoạn kề). Trong trường hợp này khi ngắn mạch trực tiếp ở cuối đoạn kề, hệ số độ nhạy không được nhỏ hơn 1,2.</para>
+        <para id="id17933716">Để so sánh độ nhạy của một sơ đồ bảo vệ ở những dạng ngắn mạch khác nhau người ta còn dùng hệ số độ nhạy tương đối Kntđ , đo là tỷ số giữa Kn ở dạng ngắn mạch đang khảo sát với <media id="id1166514300568" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media> khi ngắn mạch 3 pha với điều kiện là dòng ngắn mạch có giá trị như nhau:</para>
+        <para id="id13457894"><figure id="id16338909"><media id="id1166514300608" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media></figure> (2.10)</para>
+        <para id="id7366290">Trong đó IR và IR (3) là dòng qua rơle ở dạng ngắn mạch khảo sát và N(3) khi dòng ngắn mạch sơ cấp có giá trị như nhau.</para>
+      </section>
+    </section>
+    <section id="id-853846929599">
+      <title>Đánh giá bảo vệ dòng cực đại làm việc có thời gian:</title>
+      <section id="id-173802210358">
+        <title>Tính chọn lọc:</title>
+        <para id="id6682179">Bảo vệ dòng cực đại chỉ đảm bảo được tính chọn lọc trong các mạng hình tia có một nguồn cung cấp bằng cách chọn thời gian làm việc theo nguyên tắc bậc thang tăng dần theo hướng từ xa đến gần nguồn. Khi có 2 nguồn cung cấp, yêu cầu chọn lọc không được thỏa mãn cho dù máy cắt và bảo vệ được đặt ở cả 2 phía của đường dây.</para>
+      </section>
+      <section id="id-526384028443">
+        <title>Tác động nhanh:</title>
+        <para id="id15586452">Càng gần nguồn thời gian làm việc của bảo vệ càng lớn. Ở các đoạn gần nguồn cần phải cắt nhanh ngắn mạch để đảm bảo sự làm việc liên tục của phần còn lại của hệ thống điện, trong khi đó thời gian tác động của các bảo vệ ở các đoạn này lại lớn nhất. Thời gian tác động chọn theo nguyên tắc bậc thang có thể vượt quá giới hạn cho phép.</para>
+      </section>
+      <section id="id-143296305048">
+        <title>Độ nhạy:</title>
+        <para id="id8987396">Độ nhạy của bảo vệ bị hạn chế do phải chọn dòng khởi động lớn hơn dòng làm việc cực đại Ilv max có kể đến hệ số mở máy kmm của các động cơ. Khi ngắn mạch trực tiếp ở cuối đường dây được bảo vệ, độ nhạy yêu cầu là  1,5 (khi làm nhiệm vụ bảo vệ chính). Độ nhạy như vậy trong nhiều trường hợp được đảm bảo. Tuy nhiên khi công suất nguồn thay đổi nhiều, cũng như khi bảo vệ làm nhiệm vụ dự trữ trong trường hợp ngắn mạch ở đoạn kề , độ nhạy có thể không đạt yêu cầu. Độ nhạy yêu cầu của bảo vệ khi làm nhiệm vụ dự trữ là  1,2</para>
+      </section>
+      <section id="id-510207127684">
+        <title>Tính đảm bảo:</title>
+        <para id="id11109933">Theo nguyên tắc tác động, cách thực hiện sơ đồ, số lượng tiếp điểm trong mạch thao tác và loại rơle sử dụng , bảo vệ dòng cực đại được xem là loại bảo vệ đơn giản nhất và làm việc khá đảm bảo .</para>
+        <para id="id8976647">Do những phân tích trên, bảo vệ dòng cực đại được áp dụng rộng rãi trong các mạng phân phối hình tia điện áp từ 35KV trở xuống có một nguồn cung cấp nếu thời gian làm việc của nó nằm trong giới hạn cho phép. Đối với các đường dây có đặt kháng điện ở đầu đường dây, có thể áp dụng bảo vệ dòng cực đại được vì khi ngắn mạch dòng không lớn lắm, điện áp dư trên thanh góp còn khá cao nên bảo vệ có thể làm việc với một thời gian tương đối lớn vẫn không ảnh hưởng nhiều đến tình trạng làm việc chung của hệ thống điện .</para>
+      </section>
+    </section>
+    <section id="id-438639639783">
+      <title>Bảo vệ dòng cắt nhanh:</title>
+      <section id="id-392497676372">
+        <title>Nguyên tắc làm việc:</title>
+        <para id="id9214583">Bảo vệ dòng cắt nhanh (BVCN) là loại bảo vệ đảm bảo tính chọn lọc bằng cách chọn dòng khởi động lớn hơn dòng ngắn mạch lớn nhất qua chổ đặt bảo vệ khi hư hỏng ở ngoài phần tử được bảo vệ, BVCN thường làm việc không thời gian hoặc có thời gian rất bé để nâng cao nhạy và mở rộng vùng BV.</para>
+        <figure id="id17928876">
+          <media id="id1166514300878" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media>
+        </figure>
+        <para id="id15162932">Hình 2.15 : Đồ thị tính toán bảo vệ dòng cắt nhanh không thời gian</para>
+        <para id="id8855485">đối với đường dây có nguồn cung cấp một phía</para>
+        <para id="id10413231">Xét sơ đồ mạng trên hình 2.15, BVCN đặt tại đầu đường dây AB về phía trạm A. Để bảo vệ không khởi động khi ngắn mạch ngoài (trên các phần tử nối vào thanh góp trạm B), dòng điện khởi động IKĐ của bảo vệ cần chọn lớn hơn dòng điện lớn nhất đi qua đoạn AB khi ngắn mạch ngoài. Điểm ngắn mạch tính toán là N nằm gần thanh góp trạm B phía sau máy cắt.</para>
+        <para id="id4062409">IKĐ = kat. INngmax (2.13)</para>
+        <para id="id12806277">Trong đó :</para>
+        <para id="id13464656">INngmax: Là dòng ngắn mạch lớn nhất khi ngắn mạch ngoài vùng bảo vệ (thường là dòng N(3) )</para>
+        <para id="id4238983">kat: hệ số an toàn; xét tới ảnh hưởng của thành phần không chu kỳ, việc tính toán không chính xác dòng ngắn mạch và sai số của rơle. Thường kat= 1,2 1,3.</para>
+        <para id="id11030758">Không kể đến ktv vì khi ngắn mạch ngoài bảo vệ không khởi động.</para>
+      </section>
+      <section id="id-0414473336017">
+        <title>Vùng tác động của BV:</title>
+        <para id="id13578458">Khi hư hỏng càng gần thanh góp trạm A thì dòng điện ngắn mạch sẽ càng tăng theo đường cong 1 (hình 2.15). Vùng bảo vệ cắt nhanh lCN được xác định bằng hoành độ của giao điểm giữa đường cong 1 và đường thẳng 2 (đường thẳng 2 biểu diễn dòng điện khởi động IKĐ). Vùng l(3)CN chỉ chiếm một phần chiều dài của đường dây được bảo vệ. Dòng ngắn mạch không đối xứng thường nhỏ hơn dòng khi ngắn mạch 3 pha. Vì vậy, đường cong IN (đường cong 3) đối với các dạng ngắn mạch không đối xứng trong tình trạng cực tiểu của hệ thống có thể nằm rất thấp so với đường cong 1; vùng bảo vệ lCN &lt; l(3)CN, trong một số trường hợp lCN có thể giảm đến 0.</para>
+      </section>
+      <section id="id-45095728412">
+        <title>BVCN cho đường dây có 2 nguồn cung cấp:</title>
+        <para id="id10369967">Bảo vệ cắt nhanh còn có thể dùng để bảo vệ các đường dây có hai nguồn cung cấp. Trên hình 2.16, giả thiết BVCN được đặt ở cả 2 phía của đường dây AB. Khi ngắn mạch ngoài tại điểm NA thì dòng ngắn mạch lớn nhất chạy qua các BVCN là INngmaxB theo hướng từ thanh góp B vào đường dây. Khi ngắn mạch ngoài tại điểm NB thì dòng ngắn mạch lớn nhất chạy qua các BVCN là INngmaxA theo hướng từ thanh góp A vào đường dây. Để bảo vệ cắt nhanh không tác động nhầm khi ngắn mạch ngoài, cần phải chọn IKĐ &gt; INngmax . Trong trường hợp đang xét (hình 2.16), INngmaxA &gt; INngmaxB , vì vậy dòng tính toán INngmax = INngmaxA . Dòng điện khởi động của bảo vệ chọn giống nhau cho cả hai phía:</para>
+        <para id="id12449984">IKĐ = kat.INngmaxA</para>
+        <para id="id17933640">Vùng bảo vệ lCNA và lCNB được xác định bằng hoành đô giao điểm của các đường cong 1 (INA = f(l)) và 3 (INB = f(l)) với đường thẳng 2 (IkĐ), gồm 3 đoạn:</para>
+        <para id="id13797372">* Ngắn mạch trong đoạn lCNA chỉ có BVCN phía A tác động</para>
+        <para id="id13531173">* Ngắn mạch trong đoạn lCNB chỉ có BVCN phía B tác động</para>
+        <para id="id11060707">* Khi ngắn mạch trong đoạn giữa thì không có BVCN nào tác động. Tuy nhiên nếu (lCNA + lCNB) &gt; l thì khi ngắn mạch ở đoạn giữa cả hai BVCN sẽ cùng tác động.</para>
+        <para id="id13133443">** Hiện tượng khởi động không đồng thời:</para>
+        <para id="id12892949">Nếu giữa các trạm A,B ngoài đường dây được bảo vệ ra còn có các mạch liên lạc vòng phụ khác thì có thể xảy ra hiện tượng khởi động không đ.thời giữa các bảo vệ đặt ở 2 đầu A,B của đường dây và chiều dài vùng bảo vệ có thể tăng lên.</para>
+        <para id="id4796832">Hiện tượng mà một bảo vệ chỉ bắt đầu khởi động sau khi một bảo vệ khác đã khởi động và cắt máy cắt được gọi là hiện tượng khởi động không đồng thời. Khi kể đến tác động không đồng thời, BVCN thậm chí có thể bảo vệ được toàn bộ đường dây có nguồn cung cấp 2 phía.</para>
+        <figure id="id15235143">
+          <media id="id1166514301189" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media>
+        </figure>
+        <para id="id8297536">Hinh 2.16 : Đồ thị tính toán bảo vệ dòng cắt nhanh</para>
+        <para id="id13534882">đối với đường dây có nguồn cung cấp từ 2 phía</para>
+      </section>
+    </section>
+    <section id="id-0835530433765">
+      <title>Bảo vệ dòng có đặc tính thời gian nhiều cấp:</title>
+      <para id="id11192872">Bảo vệ dòng có đặc tính thời gian nhiều cấp (hay còn gọi là đặc tính thời gian phụ thuộc nhiều cấp) là sự kết hợp của các bảo vệ dòng cắt nhanh không thời gian, bảo vệ dòng cắt nhanh có thời gian và bảo vệ dòng cực đại. Sơ đồ nguyên lí một pha của bảo vệ như trên hình 2.18, đặc tính thời gian trên hình 2.19.</para>
+      <figure id="id17541265">
+        <media id="id1166514301280" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media>
+      </figure>
+      <para id="id13585196">Hình 2.18 : Sơ đồ nguyên lí 1 pha của bảo vệ dòng</para>
+      <para id="id11234464">có đặc tính thời gian nhiều cấp</para>
+      <para id="id7168582">Nguyên tắc làm việc của bảo vệ được khảo sát thông qua sơ đồ mạng hình tia có nguồn cung cấp 1 phía như hình 2.20. Các bảo vệ A và B đặt ở đầu đường dây AB và BC. Sự thay đổi giá trị của dòng ngắn mạch theo khoảng cách từ thanh góp trạm A đến điểm hư hỏng được đặc trưng bằng đường cong IN = f(l).</para>
+      <para id="id15968879">* Cấp thứ nhất của các bảo vệ A và B (rơle 3RI, 4RGT và 5Th trên hình 2.18) là cấp cắt nhanh không thời gian (tI  0,1 giây). Để đảm bảo chọn lọc, dòng khởi động IIKĐA và IIKĐB được chọn lớn hơn dòng ngắn mạch ngoài cực đại. Phần lIA và lIB của đường dây (xác định bằng đồ thị trên hình 2.20) là vùng thứ nhất của bảo vệ A và B, chúng chỉ chiếm một phần chiều dài của đường dây AB và BC.</para>
+      <para id="id13269854">* Cấp thứ hai (rơle 6RI, 7RT và 8Th) là cấp cắt nhanh có thời gian, để đảm bảo chọn lọc được chọn với thời gian tII lớn hơn thời gian tác động tI của cấp thứ </para>
+      <table id="id12418947" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>nhất và của bảo vệ không thời gian đặt ở các máy biến áp trạm B và C một bậc t. Khi chọn thời gian tII như vậy, dòng khởi động IIIKĐA và IIIKĐB của cấp thứ hai được chọn lớn hơn dòng ngắn mạch cực đại khi hư hỏng ngoài vùng tác động của bảo vệ không thời gian đặt ở các phần tử kề trước (ví dụ, IIIKĐA được chọn lớn hơn dòng ngắn mạch cực đại khi hư hỏng ở cuối vùng lIB của cấp thứ nhất bảo vệ B hoặc hư hỏng trên thanh góp điện áp thấp của trạm B).</entry>
+              <entry><media id="id1166514301442" alt=""><image src="Convert." mime-type="image/"/></media>Hình 2.19 : Đặc tính thời giancủa bảo vệ trên hình 2.18</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id4070825">Đối với bảo vệ A, nếu trường hợp tính toán là chỉnh định khỏi dòng ngắn mạch ở cuối vùng lIB của cấp thứ nhất bảo vệ B (dòng ngắn mạch lúc đó bằng dòng khởi động IIKĐB) thì ta có : IIIKĐA = kat.IIKĐB</para>
+      <figure id="id11828571">
+        <media id="id1166514301481" alt=""><image src="Convert." mime-type="image/" height="300" width="300"/></media>
+      </figure>
+      <para id="id11529296">Hình 2.20 : Đồ thị tính toán bảo vệ dòng có đặc tính thời gian nhiều cấp</para>
+      <para id="id5253938">Hệ số an toàn Kat tính đến sai số của rơle và máy biến dòng, lấy bằng 1,11,15.Vùng bảo vệ của cấp thứ hai bao gồm phần cuối đường dây, thanh góp của trạm và một phần các phần tử kề nối vào thanh góp này. Vùng thứ hai lIIA của bảo vệ A được xác định bằng đồ thị trên (hình 2.20), trong trường hợp đang xét lIIA chứa phần cuối đường dây AB, thanh góp B và phần đầu đường dây BC.</para>
+      <para id="id10584248">Độ nhạy cấp thứ hai của bảo vệ A và B được kiểm tra theo ngắn mạch trực tiếp ở cuối đường dây được bảo vệ AB và BC tương ứng. Yêu cầu hệ số KIIn không được nhỏ hơn 1,3  1,5.</para>
+      <para id="id5040982">* Cấp thứ BA của bảo vệ A và B (rơle 9RI, 10RT, 11Th) là bảo vệ dòng cực đại, có dòng khởi động IIIIKĐA và IIIIKĐB lớn hơn dòng điện làm việc cực đại. Tác động chọn lọc của chúng được đảm bảo nhờ chọn thời gian tIIIA và tIIIB theo nguyên tắc bậc thang.</para>
+      <para id="id10456578">Vùng bảo vệ của cấp thứ ba lIIIA và lIIIB bắt đầu từ cuối vùng hai trở đi. Nhiệm vụ của cấp thứ ba là dự trữ cho hỏng hóc máy cắt hoặc bảo vệ của các phần tử kề, cũng như cắt ngắn mạch trên đường dây được bảo vệ khi 2 cấp đầu không tác động, ví dụ khi ngắn mạch qua điện trở quá độ lớn. Độ nhạy của cấp thứ ba được kiểm tra với ngắn mạch ở cuối phần tử kề. Yêu cầu hệ số KnIII không được nhỏ hơn 1,2.</para>
+      <para id="id17345583">Ưu điểm cơ bản của bảo vệ dòng điện có đặc tính thời gian nhiều cấp là bảo đảm cắt khá nhanh ngắn mạch ở tất cả các phần của mạng điện. Nhược điểm chính là độ nhạy thấp, chiều dài vùng bảo vệ phụ thuộc vào tình trạng làm việc của hệ thống và dạng ngắn mạch, chỉ đảm bảo tính chọn lọc trong mạng hở có một nguồn cung cấp.</para>
+    </section>
+    <section id="id-040121126361">
+      <title>Bảo vệ dòng có kiểm tra áp:</title>
+      <table id="id12360980" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Để phân biệt giữa ngắn mạch và quá tải, đồng thời nâng cao độ nhạy về dòng của bảo vệ dòng cực đại, người ta dùng sơ đồ bảo vệ dòng có kiểm tra áp (hình 2.21). Khi ngắn mạch thì dòng điện tăng và điện áp giảm xuống do vậy cả rơle dòng RI và rơle áp RU đều khởi động dẫn đến cắt máy cắt. Trong trường hợp này, dòng khởi động của bảo vệ được tính theo biểu thức:<media id="id1166514301672" alt=""><image src="Convert." mime-type="image/"/></media></entry>
+              <entry><media id="id1166514301687" alt=""><image src="Convert." mime-type="image/"/></media>Hinh 2.21 : Sơ đồ nguyên lí 1 pha củabảo vệ dòng có kiểm tra áp</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id15766716">Trong biểu thức trên không cần kể đến kmm vì sau khi cắt ngắn mạch ngoài các động cơ tự khởi động nhưng không làm điện áp giảm nhiều, các rơle RU không khởi động và bảo vệ không thể tác động được.</para>
+      <para id="id7288231">Rõ ràng là khi không kể đến hệ số kmm thì dòng khởi động của bảo vệ dòng có kiểm tra áp sẽ nhỏ hơn nhiều so với dòng khởi động của bảo vệ dòng cực đại và tương ứng độ nhạy được nâng cao đáng kể.</para>
+    </section>
+  </content>
+</document>

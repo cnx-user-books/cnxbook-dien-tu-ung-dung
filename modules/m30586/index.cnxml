@@ -1,0 +1,195 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Tự động điều chỉnh điện áp và công suất phản kháng</title>
+  <metadata>
+  <md:content-id>m30586</md:content-id><md:title>Tự động điều chỉnh điện áp và công suất phản kháng</md:title>
+  <md:abstract>Tự động điều chỉnh điện áp và công suất phản kháng</md:abstract>
+  <md:uuid>f19dbf76-9650-4b58-a911-5331202115ac</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-747241321816">
+      <title>Khái niệm chung:</title>
+      <para id="id17923174">Duy trì điện áp bình thường là một trong những biện pháp cơ bản để đảm bảo chất lượng điện năng của hệ thống điện. Điện áp giảm thấp quá mức có thể gây nên độ trượt quá lớn ở các động cơ không đồng bộ, dẫn đến qúa tải về công suất phản kháng ở các nguồn điện. Điện áp giảm thấp cũng làm giảm hiệu quả phát sáng của các đèn chiếu sáng, làm giảm khả năng truyền tải của đường dây và ảnh hưởng đến độ ổn định của các máy phát làm việc song song. Điện áp tăng cao có thể làm già cỗi cách điện của thiết bị điện (làm tăng dòng rò) và thậm chí có thể đánh thủng cách điện làm hư hỏng thiết bị.</para>
+      <para id="id17923178">Điện áp tại các điểm nút trong hệ thống điện được duy trì ở một giá trị định trước nhờ có những phương thức vận hành hợp lí, chẳng hạn như tận dụng công suất phản kháng của các máy phát hoặc máy bù đồng bộ, ngăn ngừa quá tải tại các phần tử trong hệ thống điện, tăng và giảm tải hợp lí của những đường dây truyền tải, chọn tỷ số biến đổi thích hợp ở các máy biến áp ...</para>
+      <para id="id17923182">Điện áp cũng có thể được duy trì nhờ các thiết bị tự động điều chỉnh kích từ (TĐK) của các máy phát điện và máy bù đồng bộ, các thiết bị tự động thay đổi tỷ số biến đổi của máy biến áp, các thiết bị tự động thay đổi dung lượng của các tụ bù tĩnh ...</para>
+    </section>
+    <section id="id-488886722939">
+      <title>Thiết bị TĐK:</title>
+      <para id="id18670563">Thiết bị tự động điều chỉnh kích từ (TĐK) được sử dụng để duy trì điện áp theo một đặc tính định trước và để phân phối phụ tải phản kháng giữa các nguồn cung cấp trong tình trạng làm việc bình thường của hệ thống điện.</para>
+      <section id="id-636313183553">
+        <title>Các nguyên tắc thực hiện tự động điều chỉnh kích từ:</title>
+        <para id="id18670590">Máy phát được đặc trưng bằng sức điện động EF và điện kháng XF (hình 11.5). Ap đầu cực máy phát được xác định theo biểu thức :</para>
+        <para id="id18975348"><figure id="id18975351"><media id="id1171532554742" alt=""><image src="graphics1.wmf" mime-type="image/wmf" height="33" width="121"/></media></figure><figure id="id18975380"><media id="id1171531609937" alt=""><image src="graphics2.wmf" mime-type="image/wmf" height="25" width="13"/></media></figure> (11.2)</para>
+        <para id="id18975410">Nếu EF = const, khi IF thay đổi thì UF thay đổi, để giữ UF = const thì phải thay đổi EF tức là thay đổi kích từ máy phát.</para>
+        <para id="id18721913">Theo nguyên tắc tác động, thiết bị tự động điều chỉnh điện áp được chia thành 3 nhóm:</para>
+        <list id="id18721921" list-type="bulleted">
+          <item>Điều chỉnh điện áp theo độ lệch của đại lượng được điều chỉnh (ví dụ, theo độ lệch của UF).</item>
+          <item>Điều chỉnh điện áp tùy thuộc vào tác động nhiễu (ví dụ, theo dòng điện của máy phát IF , theo góc  giữa điện áp và dòng điện của máy phát, ...).</item>
+          <item>Điều chỉnh điện áp theo độ lệch của đại lượng được điều chỉnh và theo tác động nhiễu.</item>
+        </list>
+        <figure id="id18721972">
+          <media id="id2849978" alt=""><image src="../../media/graphics3-8bb3.png" mime-type="image/png" height="158" width="386"/></media>
+        </figure>
+        <para id="id18731204">Hình 11.5 : Sơ đồ thay thế và đồ thị véctơ điện áp của máy phát</para>
+        <para id="id18731219">Đối với các máy phát điện dùng máy kích thích một chiều, các thiết bị điều chỉnh điện áp có thể chia thành 2 nhóm:</para>
+        <para id="id18731226">a) Thay đổi kích từ máy phát nhờ thay đổi RKT trong mạch cuộn kích từ WKT của máy kích thích KT một cách từ từ nhờ con trượt (hình 11.6 a) hoặc nối tắt một phần RKT theo chu kỳ (hình 11.6 b).</para>
+        <figure id="id18731257">
+          <media id="id3366743" alt=""><image src="../../media/graphics4-0f2d.png" mime-type="image/png" height="215" width="490"/></media>
+        </figure>
+        <para id="id18731281">Hình 11.6 : Thay đổi kích từ máy phát nhờ thay đổi RKT</para>
+        <para id="id17481615">b) Thay đổi kích từ máy phát nhờ dòng kích từ phụ IKTf tỷ lệ với U hoặc IF hoặc cả 2 đại lượng U và IF. Dòng kích từ phụ có thể đưa vào cuộn kích từ chính WKT (hình 11.7 a) hoặc cuộn kích từ phụ WKTf (hình 11.7 b) của máy kích thích.</para>
+        <figure id="id17481670">
+          <media id="id1171524613796" alt=""><image src="../../media/graphics5-c3a6.png" mime-type="image/png" height="230" width="509"/></media>
+        </figure>
+        <para id="id17481694">Hình 11.7 : Thay đổi kích từ máy phát nhờ dòng kích từ phụ</para>
+      </section>
+      <section id="id-293813489506">
+        <title>Compun dòng điện:</title>
+        <para id="id18493856">Thiết bị compun dòng điện tác động theo nhiễu dòng điện IF của máy phát. Sơ đồ cấu trúc của thiết bị compun kích từ máy phát như hình 11.8. Dòng thứ cấp I2 của BI tỷ lệ với dòng IF. Dòng này biến đổi qua máy biến áp trung gian BTG, được chỉnh lưu và được đưa vào cuộn kích từ WKT của máy kích thích. Dòng đã được chỉnh lưu IK gọi là dòng compun đi vào cuộn WKT cùng hướng với dòng IKT từ máy kích thích. Như vậy dòng tổng (IKT + IK) trong cuộn kích từ WKT của máy kích thích phụ thuộc vào dòng IF của máy phát.</para>
+        <para id="id18493940">Biến áp BTG để cách ly mạch kích từ của máy kích thích với mạch thứ BI có điểm nối đất, ngoài ra nhờ chọn hệ số biến đổi thích hợp có thể phối hợp dòng thứ I2 của BI với dòng compun IK.</para>
+        <para id="id18534445">Biến trở đặt Rđ để thay đổi một cách đều đặn dòng IK khi đưa thiết bị compun vào làm việc, cũng như khi tách nó ra.</para>
+        <figure id="id18534468">
+          <media id="id7968581" alt=""><image src="../../media/graphics6-3c50.png" mime-type="image/png" height="229" width="379"/></media>
+        </figure>
+        <para id="id18534492">Hình 11.8 : Sơ đồ cấu trúc của thiết bị compun kích từ máy phát</para>
+        <figure id="id18534513">
+          <media id="id5844856" alt=""><image src="../../media/graphics7-5be2.png" mime-type="image/png" height="229" width="345"/></media>
+        </figure>
+        <para id="id18558384">Hình 11.9 : Đặc tính thay đổi điện áp UF</para>
+        <para id="id18558402">của máy phát ứng với các cos khác nhau</para>
+        <list id="id18558419" list-type="enumerated">
+          <item>Ưu điểm của thiết bị compun là đơn giản, tác động nhanh. Nhưng có một số nhược điểm: </item>
+        </list>
+        <list id="id18558430" list-type="bulleted">
+          <item>Compun tác động theo nhiễu, không có phản hồi để kiểm tra và đánh giá kết quả điều chỉnh.</item>
+          <item>Đối với sơ đồ nối compun vào cuộn kích từ WKT của máy kích thích như hình 11.7a, khi IF&lt; IFmin thì UF thay đổi giống như trường hợp không có compun (hình 11.9). Dòng IFmin gọi là ngưỡng của compun. Thường IFmin = (10  30)%IFđm. Tuy nhiên máy phát thường không làm việc với phụ tải nhỏ như vậy nên nhược điểm này có thể không cần phải quan tâm.</item>
+          <item>Compun không phản ứng theo sự thay đổi của điện áp và cos, do vậy không thể duy trì một điện áp không đổi trên thanh góp điện áp máy phát. Trên hình 1.19 là đặc tính thay đổi điện áp UF theo IF. Ta thấy với cùng một giá trị IF, thiết bị compun sẽ điều chỉnh điện áp UF đến những giá trị khác nhau ứng với các trường hợp cos khác nhau.</item>
+        </list>
+        <figure id="id18329618">
+          <media id="id1171533508368" alt=""><image src="../../media/graphics8-d9b7.png" mime-type="image/png" height="263" width="390"/></media>
+        </figure>
+        <para id="id18329641">Hình 11.10 : Sơ đồ cấu trúc của correctơ điện áp</para>
+      </section>
+      <section id="id-272478616597">
+        <title>Correctơ điện áp:</title>
+        <para id="id18329663">Correctơ điện áp là thiết bị tự động điều chỉnh kích từ tác động theo độ lệch điện áp, thường được dùng kết hợp với thiết bị compun kích từ để điều chỉnh điện áp ở đầu cực máy phát một cách hiệu quả.</para>
+        <para id="id18329679">Hình 11.10 là sơ đồ cấu trúc của correctơ điện áp, trong đó bao gồm: bộ phận đo lường ĐL và bộ phận khuyếch đại KĐ. Bộ phận đo lường ĐL nối với máy biến điện áp BU qua tự ngẫu đặt TNĐ. Khi điện áp thay đổi, bộ phận đo lường ĐL sẽ phản ứng và điều khiển sự làm việc của bộ phận khuyếch đại KĐ. Tự ngẫu đặt TNĐ để thay đổi mức điện áp máy phát cần phải duy trì bởi correctơ. Bộ phận khuyếch đại KĐ cũng được cung cấp từ BU và đưa dòng correctơ đã được chỉnh lưu IC vào cuộn kích từ phụ WKTf của máy kích thích. Dòng IC đi qua cuộn kích từ phụ cùng hướng với dòng trong cuộn kích từ chính WKT của máy kích thích.</para>
+        <para id="id16732826">Bộ phận đo lường gồm 2 phần tử (hình 11.11a): phần tử tuyến tính TT và phần tử không tuyến tính KTT. Phần tử tuyến tính TT tạo nên dòng điện tuyến tính ITT tỷ lệ với điện áp UF của máy phát, phần tử không tuyến tính KTT tạo nên dòng điện IKTT phụ thuộc một cách không tuyến tính vào điện áp UF của máy phát (hình 11.11b).</para>
+        <figure id="id16732878">
+          <media id="id1171525769467" alt=""><image src="../../media/graphics9-63b0.png" mime-type="image/png" height="246" width="477"/></media>
+        </figure>
+        <para id="id18672335">Hình 11.11 : Bộ phận đo lường</para>
+        <para id="id18672348">a) Sơ đồ khối chức năng b) Đặc tính quan hệ của dòng ITT và IKTT với áp đầu vào</para>
+        <para id="id18672380">Bộ phận đo lường làm việc theo nguyên tắc so sánh dòng ITT và IKTT. Từ đặc tính trên hình 11.11b ta thấy rằng: khi UF = U0 (U0 là một điện áp xác định trên thanh góp nối máy phát), dòng ITT = IKTT, lúc ấy sẽ có dòng ICmin nhỏ nhất đưa ra từ correctơ. Khi UF giảm, ví dụ giảm đến U1 thì ITT &gt; IKTT và tín hiệu từ bộ phận đo lường ĐL sẽ điều khiển bộ phận khuyếch đại KĐ làm tăng dòng IC đưa vào cuộn kích từ phụ WKTf của máy kích thích để tăng UF lên.</para>
+        <para id="id18116754">Khi điện áp UF tăng, ví dụ tăng tới U2 thì IKTT &gt; ITT, lúc này cũng xuất hiện dòng IC &gt; ICmin làm tăng UF thêm nữa. Để ngăn ngừa correctơ tác động không đúng như vậy, trong sơ đồ của correctơ có bố trí một phần tử khóa khi IKTT&gt;ITT.</para>
+        <para id="id17572689">Đặc tính của correctơ là quan hệ giữa dòng IC với điện áp trên thanh góp nối máy phát như hình 11.12.</para>
+        <para id="id17572702">Điểm a, tương ứng với khi IC = IC max, xác đinh khả năng tăng cường kích từ lớn nhất có thể đảm bảo bởi correctơ. Dòng IC min tại điểm d xác định khả năng giảm kích từ thấp nhất khi UF tăng. Sự giảm thấp của đặc tính ở đoạn ac là do điện áp nguồn cung cấp cho correctơ bị giảm thấp cùng với sự giảm thấp UF. Đoạn de nằm ngang do tác dụng của phần tử khóa khi IKTT &gt; ITT.</para>
+        <table id="id18329788" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry>Sơ đồ correctơ đã khảo sát trên là loại một hệ thống. Đầu ra của correctơ một hệ thống thường nối như thế nào để IC đi qua cuộn kích từ phụ WKTf thuận chiều với dòng IKT trong cuộn kích từ chính WKT. Correctơ nối như vậy được gọi là correctơ thuận. Trong một số trường hợp người ta nối đầu ra của correctơ thế nào để dòng IC đi qua cuộn WKTf ngược hướng với dòng IKT trong cuộn kích từ chính WKT. Correctơ nối như vậy được gọi là correctơ nghịch.</entry>
+                <entry><media id="id3925081" alt=""><image src="../../media/graphics10-38e7.png" mime-type="image/png"/></media>Hình 11.12 : Đặc tính của correctơ</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id18412761">Ở những máy phát thủy điện công suất lớn, người ta dùng correctơ 2 hệ thống (hình 11.13a) bao gồm 2 correctơ một hệ thống. Một hệ thống là correctơ thuận đưa dòng vào cuộn WKTf1 thuận chiều với dòng trong cuộn WKT . Hệ thống thứ 2 là correctơ nghịch đưa dòng vào cuộn WKTf2 theo hướng ngược lại.</para>
+        <para id="id18412790">Đặc tính của correctơ 2 hệ thống (hình 11.13b) được lựa chọn thế nào để khi UF giảm thì correctơ thuận làm việc, còn khi UF tăng thì correctơ nghịch làm việc.</para>
+        <figure id="id17524421">
+          <media id="id1171530568940" alt=""><image src="../../media/graphics11-2c1b.png" mime-type="image/png" height="289" width="554"/></media>
+        </figure>
+        <para id="id17524445">Hình 11.13 : Sơ đồ nguyên lí của correctơ 2 hệ thống</para>
+        <para id="id17524459">CP : thiết bị compun TNĐ : tự ngẫu đặt</para>
+        <para id="id17524469">a) Sơ đồ nối b) Đặc tính của correctơ</para>
+      </section>
+      <section id="id-991519892673">
+        <title>Compun pha:</title>
+        <para id="id17524487">Phần tử chính của compun pha là một máy biến áp đặc biệt có từ hóa phụ BTP (hình 11.14). Trên lõi của BTP bố trí 2 cuộn sơ cấp (cuộn dòng WI và cuộn áp WU), một cuộn thứ cấp WT và một cuộn từ hóa phụ WP.</para>
+        <para id="id17943427">Từ thông của cuộn WI tỷ lệ IF, còn của cuộn WU tỷ lệ UF. Do đó, dòng trong cuộn WK tỷ lệ với tổng các thành phần này. Dòng này được chỉnh lưu và đưa vào cuộn kích từ của máy kích thích.</para>
+        <para id="id17943466">Như vậy, compun pha thực hiện việc điều chỉnh kích từ máy phát không chỉ theo dòng điện, mà còn theo điện áp và góc lệch pha giữa chúng. Nhờ đó đảm bảo hiệu quả điều chỉnh cao.</para>
+        <para id="id17943478">Tuy nhiên compun pha là một thiết bị tác động theo nhiễu nên không thể giữ không đổi điện áp của máy phát, do đó cần có hiệu chỉnh phụ. Việc hiệu chỉnh điện áp được thực hiện nhờ correctơ cung cấp dòng IC cho cuộn từ hóa phụ WP của BTP.</para>
+        <figure id="id18481615">
+          <media id="id1171527080278" alt=""><image src="../../media/graphics12-78e9.png" mime-type="image/png" height="350" width="396"/></media>
+        </figure>
+        <para id="id18481639">Hình 11.14 : Sơ đồ cấu trúc của comun pha</para>
+      </section>
+    </section>
+    <section id="id-403125817641">
+      <title>Điều chỉnh và phân phối công suất phản kháng giữa các máy phát điện làm việc song song:</title>
+      <table id="id18481663" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Khi thay đổi kích từ của máy phát điện làm việc song song với các máy phát khác, công suất phản kháng của nó cũng thay đổi theo. Vì vậy vấn đề điều chỉnh kích từ của máy phát có liên quan chặt chẽ với vấn đề điều chỉnh và phân phối công suất phản kháng trong hệ thống điện lực. Điều chỉnh điện áp có thể được thực hiện theo đặc tính độc lập hoặc đặc tính phụ thuộc (hình 11.15). Dưới đây ta sẽ xét đến một số trường hợp sử dụng TĐK để tự động hóa quá trình điều chỉnh điện áp và công suất phản kháng.</entry>
+              <entry><media id="id1171535454216" alt=""><image src="../../media/graphics13-2182.png" mime-type="image/png"/></media>Hình 11.15 : Đặc tính điều chỉnh điện áp1 - độc lập 2 - phụ thuộc</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <figure id="id19120947">
+        <media id="id7727274" alt=""><image src="../../media/graphics14-6418.png" mime-type="image/png" height="309" width="566"/></media>
+      </figure>
+      <para id="id19120971">Hình 11.16 : Hai máy phát làm việc song song tại thanh góp điện áp máy phát</para>
+      <para id="id19120986">a) Sơ đồ b) Đặc tính điều chỉnh</para>
+      <section id="id-0313339889882">
+        <title>Trường hợp 2 máy phát làm việc song song nối chung ở thanh góp điện áp máy phát:</title>
+        <para id="id18841499">Giả thiết các máy phát có đặc tính điều chỉnh như hình 11.16, hai máy phát có chung U’F ứng với I’F1 và I’F2. Khi tải tăng thì UF giảm đến U”F ứng với I”F1 và I”F2 . Để đảm bảo giữ không đổi sự phân phối công suất phản kháng giữa các máy phát làm việc song song theo một tỷ lệ định trước thì điều kiện cần và đủ là ở điểm nối chung các máy phát phải có đặc tính điều chỉnh phụ thuộc.</para>
+        <table id="id18841557" summary="">
+          <tgroup cols="2">
+            <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+            <tbody>
+              <row>
+                <entry><media id="id1171524234847" alt=""><image src="graphics15.wmf" mime-type="image/wmf"/></media>KPT : Hệ số phụ thuộc, đặc trưng cho độ dốc của đặc tính. KPT nhỏ thì độ dốc đặc tính ít và IF lớn, tức công suất phản kháng phân phối tỷ lệ nghịch với KPTTrường hợp hai máy phát làm việc song song nối chung qua máy biến áp:Nếu các máy phát làm việc song song nối chung qua máy biến áp (hình 11.17) thì mặc dù đặc tính điều chỉnh của chúng là độc lập, tỷ lệ phân phối công suất phản kháng giữa chúng vẫn ổn định vì ở điểm nối chung đặc tính điều chỉnh</entry>
+                <entry><media id="id1171532558895" alt=""><image src="../../media/graphics16.png" mime-type="image/png"/></media>Hình 11.17 : Hai máy phát làm việc song song nối chung qua máy biến áp</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id17908314">của chúng là phụ thuộc.</para>
+        <para id="id17908320">UF1 = UF2 = hằng số</para>
+        <para id="id17908339">UTG = UF1 - IF1.XB1 = UF2 - IF2.XB2  hằng số</para>
+        <para id="id18329028">Khi công suất phản kháng thay đổi, tức khi IF và tương ứng IF1 và IF2 thay đổi thì UTG thay đổi, do vậy chỉ cần tại điểm nối chung của các máy phát có đặc tính phụ thuộc thì sự phân bố công suất phản kháng giữa chúng là ổn định.</para>
+      </section>
+    </section>
+    <section id="id-496545018575">
+      <title>Điều chỉnh điện áp trong mạng phân phối:</title>
+      <para id="id18329083">Điện áp trên thanh góp hạ áp của trạm (hình 11.18) là:</para>
+      <figure id="id18329092">
+        <media id="id1171529365673" alt=""><image src="graphics17.wmf" mime-type="image/wmf" height="56" width="167"/></media>
+      </figure>
+      <para id="id18329116">trong đó: UF : điện áp trên thanh góp đầu cực của máy phát.</para>
+      <para id="id18338789">U’B : điện áp trên thanh góp cao áp của trạm.</para>
+      <para id="id18338803">r , x : tổng điện trở tác dụng, phản kháng của đường dây và máy biến áp.</para>
+      <para id="id18338810">k : tỷ số biến đổi của máy biến áp.</para>
+      <para id="id18338820">Từ biểu thức trên có thể kết luận rằng, việc điều chỉnh điện áp UB cung cấp cho các hộ tiêu thụ có thể thực hiện được bằng cách:</para>
+      <list id="id18338836" list-type="bulleted">
+        <item>- thay đổi UF (nhờ sử dụng TĐK).</item>
+        <item>- thay đổi tỷ số biến đổi k của máy biến áp</item>
+        <item>- thay đổi công suất phản kháng Q truyền trên đường dây bằng cách điều chỉnh kích từ của máy bù hay động cơ đồng bộ, hoặc đóng cắt bộ tụ bù ở trạm.</item>
+      </list>
+      <figure id="id18338875">
+        <media id="id1171529563422" alt=""><image src="../../media/graphics18.png" mime-type="image/png" height="174" width="421"/></media>
+      </figure>
+      <para id="id18289492">Hình 11.18 : Sơ đồ mạng để giải thích nguyên tắc điều chỉnh điện áp</para>
+      <para id="id18289506">* Tự động điều khiển bộ tụ bù ở trạm:</para>
+      <para id="id18289524">Xét một sơ đồ điều chỉnh điện áp bằng bộ tụ bù đặt ở trạm giảm áp. Việc điều khiển các bộ tụ được thực hiện theo một chương trình định trước, ví dụ nhờ đồng hồ điện. Trên hình 11.20, khi tiếp điểm của đồng hồ điện ĐH đóng vào một thời điểm đặt trước thì rơle thời gian 1RT tác động đóng tiếp điểm 1RT1, cuộn đóng CĐ có điện, máy cắt đóng lại đưa bộ tụ bù vào làm việc.</para>
+      <para id="id18289547">Khi đóng máy cắt thì các tiếp điểm phụ liên động của nó cũng chuyển mạch để mở mạch cuộn dây rơle 1RT và đóng mạch cuộn dây rơle 2RT sẵn sàng cho thao tác cắt bộ tụ ra sau đó.</para>
+      <figure id="id18289562">
+        <media id="id8341401" alt=""><image src="../../media/graphics19.png" mime-type="image/png" height="303" width="430"/></media>
+      </figure>
+      <para id="id18614864">Hình 11.20 : Sơ đồ tự động đóng cắt bộ tụ bù</para>
+      <list id="id18614878" list-type="bulleted">
+        <item/>
+        <item>Đến thời điểm công suất phản kháng tiêu thụ giảm xuống thì tiếp điểm ĐH lại khép, rơle thời gian 2RT làm việc và máy cắt sẽ cắt ra.</item>
+        <item>Hai rơle thời gian 1RT và 2RT cần có thời gian đóng trễ nhằm mục đích mỗi lần đóng tiếp điểm ĐH chỉ kèm theo một thao tác đóng hoặc cắt bộ tụ.</item>
+        <item>Khi bảo vệ BV của bộ tụ tác động thì rơle RG có điện, tiếp điểm RG2 đóng lại để tự giữ, tiếp điểm RG3 mở mạch cuộn đóng CĐ của máy cắt, tiếp điểm RG1 đóng đưa điện vào cuộn cắt CC và máy cắt sẽ cắt bộ tụ ra. Nút ấn N để giải trừ tự giữ của rơle RG.</item>
+      </list>
+    </section>
+  </content>
+</document>
