@@ -1,3 +1,28 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10866</md:content-id>  <md:title>ĐIỆN TỬ ỨNG DỤNG</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>vi</md:language>              <md:uuid>236e5db8-78a5-41fb-ba4f-5f69216fdf89</md:uuid>
-<md:slug>dien-tu-ung-dung</md:slug>
-</metadata>  <col:content>                        <col:subcollection>        <md:title>LÝ THUYẾT ĐIỆN TỬ</md:title>                                <col:content>                    <col:module document="m29976"/>                            <col:module document="m29804"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>CÁC ỨNG DỤNG</md:title>                                <col:content>                    <col:module document="m30586"/>                            <col:module document="m29104"/>                            <col:module document="m30648"/>                          </col:content>      </col:subcollection>      </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Course" authors="Huynh Loi">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10866</md:content-id>
+    <md:title>&#x110;I&#x1EC6;N T&#x1EEC; &#x1EE8;NG D&#x1EE4;NG</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>vi</md:language>
+    <md:uuid>236e5db8-78a5-41fb-ba4f-5f69216fdf89</md:uuid>
+    <md:slug>dien-tu-ung-dung</md:slug>
+  </metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>L&#xDD; THUY&#x1EBE;T &#x110;I&#x1EC6;N T&#x1EEC;</md:title>
+      <col:content>
+        <col:module document="m29976"/>
+        <col:module document="m29804"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>C&#xC1;C &#x1EE8;NG D&#x1EE4;NG</md:title>
+      <col:content>
+        <col:module document="m30586"/>
+        <col:module document="m29104"/>
+        <col:module document="m30648"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
